@@ -1,0 +1,28 @@
+.jumbotron {
+	font-family: 'Bungee Outline', cursive;
+	text-align: center;
+	border:5px solid black;
+}
+.backColor {
+	background-color: gray;
+	margin-bottom: 15px;
+}
+body {
+	background-color: lightgray;
+	color:black;
+}
+.textFormatter {
+	font-size: 32px;
+	color:black;
+	clear:both;
+}
+.moveLeft {
+	float:left;
+	margin-left: 15px;
+	margin-right: 35px;
+}
+#searchArea {
+	background-color: darkgray;
+	padding:50px;
+	border:5px solid black;
+}
