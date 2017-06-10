@@ -32,6 +32,10 @@ $(document).ready(function(){
  	 method: 'GET',
 	}).done(function(result) {
  	 console.log(result);
+ 	$("#searchVal input").val("");
+	$(".beginCal").val("");
+	$(".endCal").val("");
+	$(".resultNum").val("Choose...");
 	}).fail(function(err) {
 	  throw err;
 	});
