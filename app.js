@@ -16,7 +16,7 @@ function reset () {
 	$(".endCal").val("");
 	$(".resultNum").val("Choose...");
 	$("#articleArea").empty();
-	url = "";
+	datesPossible = "";
 };
 function IsThereADate () {
 	if (!beginDat == "") {
@@ -34,6 +34,7 @@ $(document).ready(function(){
 	});
 	$(".submitData").click(function () {
 	$("#articleArea").empty();
+	datesPossible = "";
 	searchCritOne = $("#searchVal input").val();
 	searchCrit = searchCritOne.trim().replace(/ /g, '+');
 	beginDat = $(".beginCal").val().replace("-", "").replace("-", "");
