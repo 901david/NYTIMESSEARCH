@@ -14,45 +14,49 @@
 	<title>NY TIMES APP</title>
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="jumbotron">
-			<h1>NY TIMES ARTICLES</h1>
-		</div>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2" id="searchArea">
-				
-				<div class="form-group row">
-					<span class="glyphicon glyphicon-list-alt"></span><label for="example-search-input" class="col-2 col-form-label">  Search Articles</label>
-					<div class="col-10" id="searchVal">
-						<input class="form-control" type="search" value="" id="example-search-input">
-					</div>
-				</div>
-				<div class="form-group row center">
-					<span class="glyphicon glyphicon-calendar"></span><label for="example-date-input" class="col-2 col-form-label">  Start Date (Optional)</label>
-					<div class="col-10">
-						<input class="form-control beginCal" type="date" value="" id="example-date-input">
-					</div>
-				</div>
-				<div class="form-group row">
-					<span class="glyphicon glyphicon-calendar"></span><label for="example-date-input" class="col-2 col-form-label">  End Date (Optional)</label>
-					<div class="col-10">
-						<input class="form-control endCal" type="date" value="" id="example-date-input">
-					</div>
-				</div>
-				<label class="mr-sm-2" for="inlineFormCustomSelect">Number of Results</label><br>
-				<select class="custom-select mb-2 mr-sm-2 mb-sm-0 resultNum" id="inlineFormCustomSelect">
-					<option selected>Choose...</option>
-					<option value="1">One</option>
-					<option value="5">Five</option>
-					<option value="10">Ten</option>
-				</select>
-				<br><br>
-				<button type="submit" class="btn btn-primary submitData">Search</button>
-	</div>
-	</div>
-			<div class="row" id="fixMiddle">
-			<div class="col-lg-8" id="articleArea">
-			</div>
-			</div>
+		<div class="container-fluid">
+        <div class="jumbotron">
+            <h1>NY TIMES ARTICLES</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2" id="searchArea">
+                
+                <div class="form-group row">
+                    <span class="glyphicon glyphicon-list-alt"></span><label for="example-search-input" class="col-2 col-form-label">  Search Articles</label>
+                    <div class="col-10" id="searchVal">
+                        <input class="form-control" type="search" value="" id="example-search-input">
+                    </div>
+                </div>
+                <div class="form-group row center">
+                    <span class="glyphicon glyphicon-calendar"></span><label for="example-date-input" class="col-2 col-form-label">  Start Date (Optional)</label>
+                    <div class="col-10">
+                        <input class="form-control beginCal" type="date" value="" id="example-date-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <span class="glyphicon glyphicon-calendar"></span><label for="example-date-input" class="col-2 col-form-label">  End Date (Optional)</label>
+                    <div class="col-10">
+                        <input class="form-control endCal" type="date" value="" id="example-date-input">
+                    </div>
+                </div>
+                <label class="mr-sm-2" for="inlineFormCustomSelect">Number of Results</label><br>
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0 resultNum" id="inlineFormCustomSelect">
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="5">Five</option>
+                    <option value="10">Ten</option>
+                </select>
+                <br><br>
+                <button type="submit" class="btn btn-primary submitData">Search</button>
+                <button type="reset" class="btn btn-primary clearAll">Reset</button>
+    </div>
+    </div>
+            <div class="row" id="fixMiddle">
+            <div class="col-lg-8" id="articleArea">
+            </div>
+            </div>
+</body>
+</html>
+
 </body>
 </html>
